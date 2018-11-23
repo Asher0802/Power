@@ -2,10 +2,10 @@
 return array(
 	//'配置项'=>'配置值'
 	'DB_TYPE'               => 'mysqli',     // 数据库类型
-    'DB_HOST'               => 'localhost', // 服务器地址
+    'DB_HOST'               => '43.226.74.89', // 服务器地址
     'DB_NAME'               => 'flower',          // 数据库名
     'DB_USER'               => 'root',      // 用户名
-    'DB_PWD'                => '',          // 密码
+    'DB_PWD'                => 'Asher0802',          // 密码
     'DB_PORT'               => '',        	// 端口
     'DB_PREFIX'             => 'flower_',    	// 数据库表前缀
 	'TMPL_ENGINE_TYPE'		=> 'Smarty',	//模板引擎
