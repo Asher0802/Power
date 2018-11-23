@@ -1,0 +1,53 @@
+Array
+(
+    [Filename] => 下单汇总.xls
+    [timestamp] => 1350838927
+    [token] => 6f3d182ad3b33112562f105af2ebd260
+    [Upload] => Submit Query
+)
+Array
+(
+    [HTTP_ACCEPT] => text/*
+    [CONTENT_TYPE] => multipart/form-data; boundary=----------cH2gL6GI3gL6ae0gL6ei4ae0Ef1gL6
+    [HTTP_USER_AGENT] => Shockwave Flash
+    [HTTP_HOST] => localhost
+    [CONTENT_LENGTH] => 226456
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => AJSTAT_ok_times=1
+    [PATH] => C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\QuickTime Alternative\QTSystem;
+    [SystemRoot] => C:\Windows
+    [COMSPEC] => C:\Windows\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.BOX
+    [WINDIR] => C:\Windows
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.8 (Win32) PHP/5.2.6
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => F:/phpServer/www/
+    [SERVER_ADMIN] => admin@localhost
+    [SCRIPT_FILENAME] => F:/phpServer/www/LATJ.OA/Public/uploadify/uploadify.php
+    [REMOTE_PORT] => 5214
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /LATJ.OA/Public/uploadify/uploadify.php
+    [SCRIPT_NAME] => /LATJ.OA/Public/uploadify/uploadify.php
+    [PHP_SELF] => /LATJ.OA/Public/uploadify/uploadify.php
+    [REQUEST_TIME] => 1350839567
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => 下单汇总.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:\phpServer\tmp\php5D23.tmp
+            [error] => 0
+            [size] => 225792
+        )
+
+)

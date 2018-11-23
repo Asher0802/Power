@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: url("../Images/Home/48.jpg") no-repeat;
+    background-size:100%;
+}
+
+#logoo{
+    width: 211px;
+    height: 68px;
+    /*margin: 130px auto 0;*/
+}
+#co-box{
+    width: 340px;
+    background: #ffffff;
+    opacity: 0.95;
+    /*//margin:50px auto;*/
+    padding: 0 30px;
+    box-shadow: 3px 3px 2px #949494;
+    padding-bottom: 30px;
+}
+#co-box .head{
+    border-bottom: 2px solid #CCCCCC;
+    height: 50px;
+    line-height: 55px;
+    color: #666;
+    font-size: 16px;
+    font-family: 'MICROSOFT YAHEI';
+}
+#co-box .head .text{
+    width: 160px;
+    height: 50px;
+    border-bottom: 2px solid #FF6600;
+    padding-left: 15px;
+}
+#co-box .in-box{
+    width: 295px;
+    height: 40px;
+    margin-top: 35px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    padding-left: 35px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+#co-box .content{
+    position: relative;
+    font-size: 20px;
+    color: #999999;
+}
+#co-box .fa-user{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+}
+#co-box .fa-lock{
+    position: absolute;
+    top: 123px;
+    left: 10px;
+}
+#co-box #capt{
+    width: 135px;
+    height: 40px;
+    margin-top: 28px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    padding-left: 35px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+#co-box .fa-qrcode{
+    position: absolute;
+    top: 195px;
+    left: 10px;
+}
+#co-box .button-div{
+    width: 340px;
+    height: 42px;
+    border-radius: 5px;
+    background: #eeeeee;
+    color: #999;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'MICROSOFT YAHEI';
+    display: none;
+}
+#co-box .button{
+    width: 340px;
+    height: 42px;
+    border-radius: 5px;
+    background: #FF0000;
+    color: #ffffff;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'MICROSOFT YAHEI';
+}
+#co-box .button span{
+    margin-right: 20px;
+}
+#co-box .link{
+    height: 60px;
+    line-height: 70px;
+}
+#co-box .link a{
+    color: #333333;
+    font-size: 13px;
+}
+#co-box .link .link-reg{
+    margin-right: 140px;
+    margin-left: 20px;
+}
+#co-box .yzm-img{
+    width: 130px;
+    height: 42px;
+    float: right;
+    background: red;
+    margin-top: 28px;
+    font-size: 11px;
+    font-family: 'MICROSOFT YAHEI';
+    position: relative;
+
+}
+
+#kanbudao{
+    position: absolute;
+    background: #f3f3f3;
+    left:0px;
+    top:0px;
+    width: 130px;
+    height: 42px;
+    line-height:42px;
+    text-align: center;
+    display:none;
+}
+#co-box .yzm-img img{
+    width: 100%;
+    height: 100%;
+}
+#co-box #login_click{
+	outline:none;
+	border:none;
+    cursor: pointer;
+
+}
+#co-box .login-msg{
+    margin-top: 15px;
+    color: red;
+    font-size: 13px;
+    font-family: 'MICROSOFT YAHEI';
+}
+.login_error{
+    border:1px solid red!important;
+}
+#code{
+    cursor: pointer;
+}
+
+
+
+
+#lo-bottom{
+    width: 100%;
+    height: 40px;
+    background: #333333;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    line-height: 40px;
+}
+#lo-bottom .bo-cen{
+    margin: auto;
+    width: 540px;
+}
+#lo-bottom .bo-list{
+    float: left;
+    color: #ccc;
+    font-family: '瀹嬩綋';
+    font-size: 12px;
+    margin-right: 30px;
+}

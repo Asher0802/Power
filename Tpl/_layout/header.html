@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>{$TITLE_VAL}</title>
+    <meta charset = "utf-8"/>
+    {foreach $_HEAD_CSS_JS['css'] as $v}
+    <link rel="stylesheet" href="{$v}">
+    {/foreach}
+    {foreach $_HEAD_CSS_JS['js'] as $v}
+    <script type="text/javascript" src="{$v}"></script>
+    {/foreach}
+	<script type = "text/javascript">
+		{foreach $_javaScript as $v}
+			{$v}
+		{/foreach}
+	</script>
+</head>
+<body>

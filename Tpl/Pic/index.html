@@ -1,0 +1,37 @@
+{include '../_layout/header.html'}
+<body>
+    <div>
+        <div class="header">
+            <div class="left-header">
+                <button class="del-btn">
+                    <i class="fa fa-remove"></i> 删除
+                </button>
+                <button class="save-btn">
+                    <i class="fa fa-cog"></i> 设为封面
+                </button>
+            </div>
+            <div class="right-header">
+                <button class="upload-btn" id="upload_file">
+                    上传图片
+                </button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="main">
+            <div class="img-ul">
+                {if $data}
+                    {foreach $data as $row}
+                         <div class="li-list">
+                            <div class="img-li {if $row.i_url==$img_url}img-cover{/if}" data-index={$row.i_id}>
+                                   <i class="fa fa-camera"></i>
+                                   <img src="{$app_root}{$row.i_url}" alt="" data-url="{$row.i_url}">
+                                   <i class="fa fa-check-square-o"></i>
+                            </div>
+                         </div>
+                    {/foreach}
+                {/if}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

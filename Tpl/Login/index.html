@@ -1,0 +1,42 @@
+{include '../_layout/header.html'}
+<body>
+<div id="logoo" style='display:none'>
+    <img src="__PUBLIC__/Images/Home/login_logo.png">
+</div>
+<form action="{U('Login/login')}" method="post">
+    <div id="co-box">
+        <div class="head">
+            <div class="text">用户名/账号登录</div>
+        </div>
+        <div class="content">
+            <i class="fa fa-user"></i>
+            <i class="fa fa-lock"></i>
+            <i class="fa fa-qrcode" id="fa-qrcode"></i>
+            <input type="text" id="user" name="u_name" class="in-box" placeholder="已验证手机/用户名">
+            <input type="password" id="password" name="u_password" class="in-box" placeholder="密码">
+            <input type="text" id="capt" name="capt" placeholder="验证码">
+            <div class="yzm-img" id="yzm-img_id">
+                <img src="__APP__/Login/getVerify " id = "code" alt=""/>看不清？换一张
+                <div id="kanbudao">点击显示</div>
+            </div>
+        </div>
+        <div class="link">
+            <span class="link-reg"><a href="">忘记登录密码？</a></span>
+            <span ><a href="javascript:;" id = "sub">免费注册</a></span>
+        </div>
+        <input type="submit" class="button" id="login_click" value="登       录"  name="login_submit">
+        <div class="button-div" id="input_button_div">正在登录 . . .</div>
+        <div class="login-msg" id="login-msg_id"></div>
+    </div>
+</form>
+<div id="lo-bottom">
+    <div class="bo-cen">
+        <div class="bo-list">版权所有：绝对领域</div>
+        <div class="bo-list">技术支持：绝对领域</div>
+        <div class="bo-list">网站备案号：赣ICP备15006270号-1</div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+</body>
+</html>

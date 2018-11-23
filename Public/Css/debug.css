@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.panel { float: left; width: 200px; margin-left: 10px; border: 1px dashed #ccc; }
+.panel h3 { border-bottom: 1px dashed #ccc; text-align: center; margin: 0 0 10px 0; padding: 5px; }
+.clear { clear: both; }
+
+.tipInfo { border: 1px dashed #ccc; padding: 10px; margin-top: 10px; }
+.tipInfo div { border-bottom: 1px dashed #ccc; padding:3px; margin: 3px;}
+.tipInfo div label { float: left; width: 240px; text-align: right; color: red; }
